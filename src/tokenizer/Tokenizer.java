@@ -11,3 +11,6 @@ import java.util.ArrayList;
 public interface Tokenizer {
 	public abstract ArrayList<String> tokenize(String s);
 }
+
+//takes in string and returns list of words 
+//needs to handle words with hyphens and convert upper and lower case words to be the same 

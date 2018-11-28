@@ -30,6 +30,7 @@ public abstract class Index {
 		_tokenizer = tokenizer;
 		_scoring = scoring;
 		_scoring.init(this);
+		
 	}
 	
 	public Tokenizer getTokenizer() {
